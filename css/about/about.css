@@ -1,0 +1,50 @@
+@import "../main.css";
+.about {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../../img/about/about-bg.png");
+
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  border-radius: 0 10px 10px 0;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.about__content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 136px;
+}
+
+.about__content-title {
+  /*margin-left: -30%;*/
+  max-width: 512px;
+  max-height: 476px;
+  padding: 61px 75px 105px 85px;
+  margin-top: 137px;
+  background: #ededed;
+  border-radius: 10px;
+}
+
+.about__content-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0499dd;
+  margin-bottom: 40px;
+}
+
+.about__content-title p {
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 500px){
+  .about__content-title {
+    max-height: 600px;}
+}
