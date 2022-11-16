@@ -114,13 +114,9 @@
 
   .header__nav_item-list {
     color: #828282;
+    font-size: 1.3em;
+    font-weight: bold;
   }
-
-  /*.nav_open{*/
-  /*  overflow: hidden;*/
-  /*}*/
-
-
   .header_content_info-title-text1{
     font-size: 48px;
   }
@@ -208,6 +204,7 @@
   .header_content_info-title-text2 {
     font-size: 30px;
     margin-left: 200px;
+
   }
 
   .header_content_info-title-text3 {
@@ -254,12 +251,12 @@
   }
   .header_content_info-title-text1 {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .header_content_info-title-text2 {
     font-size: 25px;
     margin-left: 130px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .header_content_info-title-text3 {
