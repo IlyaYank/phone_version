@@ -72,3 +72,9 @@
   display: none;
 }
 }
+@media (max-width: 500px) {
+  .pictures{
+    padding-left: 0;
+    grid-gap: 5px;
+  }
+}
